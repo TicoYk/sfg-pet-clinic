@@ -1,4 +1,4 @@
-package com.ticoyk.sfgpetclinic.model;
+package com.ticoyk.sfgpetclinicdata.model;
 
 import java.time.LocalDate;
 
