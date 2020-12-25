@@ -1,5 +1,5 @@
 package com.ticoyk.sfgpetclinicdata.model;
 
-public class Veterinary {
+public class Veterinary extends Person {
     
 }
