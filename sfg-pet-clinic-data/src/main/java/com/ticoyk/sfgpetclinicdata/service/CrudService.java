@@ -3,15 +3,15 @@ package com.ticoyk.sfgpetclinicdata.service;
 import java.util.Set;
 
 public interface CrudService<T, ID> {
-    
-    public T findById(ID id);
 
-    public T save(T object);
+    T findById(ID id);
 
-    public Set<T> findAll();
+    T save(T object);
 
-    public void delete(T object);
+    Set<T> findAll();
 
-    public void deleteById(ID id);
+    void delete(T object);
+
+    void deleteById(ID id);
 
 }
